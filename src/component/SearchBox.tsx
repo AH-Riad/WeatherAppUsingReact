@@ -15,6 +15,7 @@ function SearchBox() {
     let jsonResponse = await response.json();
     console.log(jsonResponse);
     let result = {
+      city: city,
       temp: jsonResponse.main.temp,
       temp_min: jsonResponse.main.temp_min,
       temp_max: jsonResponse.main.temp_max,

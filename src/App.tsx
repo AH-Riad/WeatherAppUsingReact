@@ -1,10 +1,12 @@
 import SearchBox from "./component/SearchBox";
+import InfoBox from "./component/InfoBox";
 
 function App() {
   return (
-    <div>
+    <>
       <SearchBox />
-    </div>
+      <InfoBox />
+    </>
   );
 }
 
