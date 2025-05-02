@@ -1,11 +1,13 @@
-import SearchBox from "./component/SearchBox";
-import InfoBox from "./component/InfoBox";
+// import SearchBox from "./component/SearchBox";
+// import InfoBox from "./component/InfoBox";
+import WeatherApp from "./component/WeatherApp";
 
 function App() {
   return (
     <>
-      <SearchBox />
-      <InfoBox />
+      {/* <SearchBox /> */}
+      <WeatherApp />
+      {/* <InfoBox /> */}
     </>
   );
 }
